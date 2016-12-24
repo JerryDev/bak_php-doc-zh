@@ -1,0 +1,69 @@
+中文翻译组的同学们：
+     你们好。
+     我是一名普通的PHP开发人员，现在PHP工作经验2年半，居武汉。
+
+好吧，感觉有点太正式了，我觉得我们程序员都有点闷sao+幽默，所以就不必来那一套冠冕堂皇的扯理由，哈哈。
+讲点个人经历。
+因为热爱编程（至于为啥热爱，啥时开始发现自己热爱的，这个又可以扯半天），所以选择了从事编程的工作。
+技术上，不是天才型，但是我有我的执着，喜欢深入研究自己不太懂的东西。
+我也不是计算机专业生，热爱，所以无所惧，我现在的学习方式是逆向学习，从遇到的问题一层一层逆向探究底层技术。
+
+开始写代码的时候，其实不太懂很底层的东西，从事PHP开始，环境搭建，apache,cgi,fastcgi,mysql,nginx，一层一层探究。
+然后HTTP协议，TCP/IP协议，websocket，翻看大量资料，没办法，非科班生，理论基础学习缺失，需要花不少时间才能补上这些知识。
+我也非常喜欢这种对自己感兴趣的内容不断学习研究的学习方式，总比学校死记硬背来得更好。
+
+用sublime编写PHP有两年多（现在主要用phpstorm），我觉得这给了我很大的锻炼（主要是还没参与过特别大的项目开发，不过，PHP开发大项目？），
+遇到各种报错，都是通过php原生错误信息排错，遇到分号等小问题，只能骂自己白chi，智zhang...
+sublime的代码提示不是很健全，所以挺锻炼手写代码的能力，期间很多时间在查看php documentation。
+当然我一般是先了解大概用法，解决实际问题以后，再花业余时间仔细研究php documentation。
+再从知识点提到的知识点发散的去研究，所以所学很宽泛。（这里其实有一个严重的问题，这种发散学习法控制不好的话，会导致一层一层的去研究，最后迷失在里面。）
+
+我是不是又跑题了，我写这篇邮件的目的是什么？？？
+好吧，回归正题。
+应该是去年6月份开始吧，在翻阅php文档的时候，发现我查阅的函数居然没人翻译，看英文太累了，就想了解一下和php文档翻译相关的信息。
+然后尝试把我要查看的函数的文档翻译成了中文。具体是哪个函数有点记不得了，stomp::__construct ? bccomp ?
+在php docbook online editor 里翻译然后提交的，并提交了patch for review，当时是看了翻译教程，还看了戴劼还是周梦康的博客里说的注意事项。
+然后过了几天，去查看，发现怎么还是英文的，就写了封邮件到doc-zh list,提醒review，后来就顺利被review了。终于看到了自己翻译的文档被采纳。
+其实当时看到了翻译教程里，说可以申请一个SVN账号，直接提交翻译内容，但是感觉资历不够，作罢。
+后来要用mysqli，发现，居然没人翻译mysqli的函数，什么鬼！！！于是一口接连翻译了多篇mysqli里的函数文档。
+过程比较曲折，先在online editor里打开，然后markup下版本，在copy到sublime里，拿不准的词就查有道。翻译好以后，怕丢失，就在github里保存了一份，
+在复制到online editor里保存，然后submit as patch for review。那段时间工作比较忙，就没去管翻译文档进展这件事了。
+直到后来有一天想起来了，去查看，又是什么鬼，居然还！没！有！被！review！大概当时都过了几个月了。
+期间其实有想继续翻译的，打开了online editor, 又退出了。（目前还有一篇很长的文档 mysqli quickstart，翻译了一部分，一直被挂起，罪过）
+
+后来就又忙工作上的事，家里的事，自己的事，就没关注翻译了。
+有很多次想过，想申请个php账号吧，但是一直没付之行动，也是因为没想明白一些问题。
+当时忍住了，是因为不想让一时兴起，三分热度冲昏头，占个坑不做事，就不太好了。（咳咳，当然，我没有说translators列表里sum为个位数的同学们的不是哈）
+人生总要有一些让你能为之持续坚持做的事，我想，那就从简单的做起吧。
+2015，我给自己定的关键词：从容。
+2016：平和。
+2017，我给自己定的关键词，就叫：坚持。
+
+
+综上，有了这封邮件。
+想请问，我可以申请一个php邮箱账号吗？
+目的：翻译php文档成简体中文。
+github account: jerrydev    ,  nick: Jerry
+想通过SVN或者Git提交翻译内容。
+php docbook online editor 用的github账号登录。
+
+给自己定个翻译小目标： 一周一篇，每个月至少4篇！
+
+目前翻译了如下文档：
+zh/reference/bc/functions/bccomp
+zh/reference/datetime/datetimezone/construct
+zh/reference/mysqli/mysqli/get-client-info
+zh/reference/mysqli/mysqli/get-client-version
+zh/reference/mysqli/mysqli/get-host-info
+zh/reference/mysqli/mysqli/get-proto-info
+zh/reference/mysqli/mysqli/get-server-info
+zh/reference/mysqli/mysqli/get-server-version
+zh/reference/stomp/stomp/construct
+
+
+希望和翻译组的同学们多交流，共同进步。
+      谢谢。
+
+
+JerryGuo
+2016-12-24 16:41
